@@ -74,7 +74,7 @@ python3 detect.py
  - **filesrc** the path to the video file. In the Docker container should be at /app/videos
  - **netsrc** If the `videosrc` is `net` then specify the URL. Example: `rtsp://192.168.1.43/mpeg4/media.amp`
  - **tracker** Name of the Object Tracker To be used. Choices are `None` or `sort`.
- - 
+ 
 You can change the model and the labels file using ```--model``` and ```--labels```.
 
 By default, this uses the ```mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite``` model.
